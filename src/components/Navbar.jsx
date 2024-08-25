@@ -19,8 +19,8 @@ const Navbar = () => {
   };
 
   return (
-    <div className='w-full h-[90px] text-white md:border-white md:border-b-[1px]'>
-      <div className='max-w-[1240px] p-4 mx-auto flex justify-between items-center h-full '>
+    <div className='w-full h-[90px] text-white border-white border-b-[1px]'>
+      <div className='max-w-[1240px] p-2 mx-auto flex justify-between items-center h-full '>
         <div>
           <h1 className="tracking-widest uppercase md:text-xl">Hawkeye photography</h1>
         </div>
@@ -36,7 +36,7 @@ const Navbar = () => {
         </div>
         {/* Mobile menu */}
         <div className={
-          nav ? "w-full h-[100vh] absolute top-[120px] left-0 md:hidden text-2xl flex justify-center" 
+          nav ? "w-full h-[100vh] absolute top-[90px] left-0 md:hidden text-2xl flex justify-center" 
           : "absolute left-[-100%]"
         }>
           <ul className="flex flex-col items-center gap-4 mt-20 text-3xl">
