@@ -4,7 +4,8 @@ export default {
 	theme: {
 		extend: {
 			fontFamily : {
-				'IBM-Plex-Serif' : ['"IBM Plex Serif"', 'serif']
+				'IBM-Plex-Serif' : ['"IBM Plex Serif"', 'serif'],
+				'Playfair-Display' : ['"Playfair Display", serif']
 			}
 		},
 	},

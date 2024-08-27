@@ -20,7 +20,7 @@ const Navbar = () => {
 
   return (
     <div className='w-full h-[90px] text-white border-white border-b-[1px]'>
-      <div className='max-w-[1240px] p-2 mx-auto flex justify-between items-center h-full '>
+      <div className='max-w-screen-2xl mx-auto flex justify-between items-center h-full w-[90%]'>
         <div>
           <h1 className="tracking-widest uppercase md:text-xl">Hawkeye photography</h1>
         </div>
